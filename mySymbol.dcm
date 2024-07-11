@@ -1,0 +1,65 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC08
+D quad 2-input AND gate
+K TTL and 2-input
+F https://toshiba.semicon-storage.com/info/TC74HC08AP_datasheet_ja_20140301.pdf?did=7496&prodName=TC74HC08AP
+$ENDCMP
+#
+$CMP 74HC32
+D quad 2-input OR gate
+K TTL or2
+F https://toshiba.semicon-storage.com/info/TC74HC32AP_datasheet_ja_20140301.pdf?did=15799&prodName=TC74HC32AP
+$ENDCMP
+#
+$CMP AQM0802A-FLW-GBW
+D 2 Lines, 8 character alpha numeric LCD, transreflective STN and FSTN Gray, I2C, single or dual power
+K display LCD character
+F http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
+$ENDCMP
+#
+$CMP BMI160
+D Small, low power inertial measurement unit, LGA-14
+K Bosh IMU small low power inertial measurement unit
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf
+$ENDCMP
+#
+$CMP CH340N
+D USB serial converter, UART, SOP-8
+K USB UART Serial Converter Interface
+F https://www.mpja.com/download/35227cpdata.pdf
+$ENDCMP
+#
+$CMP CH559L
+F http://www.wch-ic.com/downloads/file/212.html
+$ENDCMP
+#
+$CMP CH559L_Package
+F http://www.wch-ic.com/downloads/file/212.html
+$ENDCMP
+#
+$CMP Q_NMOS_SSSGD
+D N-MOSFET transistor, source/source/source/gate/drain
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP S-5851A
+D I2C Temperature Sensor, ±2.0ºC, SOT-6
+K I2C Temperature Sensor
+F https://www.ablic.com/jp/doc/datasheet/temperature_sensor/S5851A_J.pdf
+$ENDCMP
+#
+$CMP SW_Push_DPDTx2
+D Momentary Switch, dual pole double throw
+K switch dual-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
+$CMP USB_C_Receptacle_PowerSupply
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+#End Doc Library
